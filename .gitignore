@@ -1,0 +1,28 @@
+# Local APK inspection: includes extracted third-party files; never publish by accident
+local-apk-inspection/
+extracted/
+decoded/
+decompiled/
+*.apk
+*.aab
+*.apks
+*.xapk
+
+# Signing materials and credentials
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+local.properties
+.env
+.env.*
+!.env.example
+
+# Generated files / local caches
+__pycache__/
+*.pyc
+.gradle/
+build/
+**/build/
+.DS_Store
